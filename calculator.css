@@ -1,0 +1,36 @@
+#clear
+{
+    width: 530px;
+    
+}
+input
+{
+    font-size: 50px;
+    text-align: center;
+    width: 130px;
+    height: 100px;
+    border: 10px solid black;
+    color: #ff6600;
+    font-weight: bolder;
+    background-color: #006699;
+   
+}
+ .number
+{
+    width: 510px;
+}
+
+button
+{
+    width: 530px;
+    background-color: #006699;
+    color: white;
+    line-height: 1px;
+    border: 10px solid black;
+    font-weight: bolder;
+}
+html
+{
+    margin-left: 300px;
+    margin-right:200px;
+}

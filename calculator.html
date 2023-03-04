@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="calculator.css">
+        <script src = "script.js"></script>
+        <script src="https://kit.fontawesome.com/7db1c8cd2d.js" crossorigin="anonymous"></script>
+    </head>
+    <title>Simple Calculator</title>
+    <body>
+    <br> <br> <br>
+        <form id="calculator">
+        <input type="text" id="number" name="number" class="number">
+        <br><br>
+        <input type="button" id="seven" name="seven" value="7"  onclick="calculator.number.value +='7' ">
+        <input type="button" id="eight" name="eight" value="8" onclick="calculator.number.value +='8' ">
+        <input type="button" id="nine" name="nine" value="9" onclick="calculator.number.value +='9' ">
+        <input type="button" id="add" name="add" value="+" onclick="calculator.number.value += '+' ">
+        <br><br>
+        <input type="button" id="four" name="four" value="4" onclick="calculator.number.value +='4'">
+        <input type="button" id="five" name="five" value="5" onclick="calculator.number.value += '5' ">
+        <input type="button" id="six" name="six" value="6" onclick="calculator.number.value += '6'">
+        <input type="button" id="minus" name="minus" value="-" onclick="calculator.number.value += '-' ">
+        <br><br>
+        <input type="button" id="three" name="three" value="3" onclick="calculator.number.value +='3'">
+        <input type="button" id="two" name="two" value="2" onclick="calculator.number.value +='2'">
+        <input type="button" id="one" name="one" value="1" onclick="calculator.number.value +='1'">
+        <input type="button" id="multiple" name="multiple" value="*" onclick="calculator.number.value += '*' ">
+        <br><br>
+        <input type="button" id="zero" name="zero" value="0" onclick="calculator.number.value =+ '0'">
+        <input type="button" id="decimal" name="decimal" value="." onclick="calculator.number.value += '.'">
+        <input type="button" id="divide" name="divide" value="/" onclick="calculator.number.value += '/'">
+        <input type="button" id="equal" name="equal" value="=" onclick="calculator.number.value = eval(calculator.number.value)">
+        <br><br>
+        <input type="button" id="clear" name="clear" value="CLEAR" onclick="calculator.number.value = '' ">
+        <br>
+        </form>
+        <br><br><br>
+    
+    <footer>
+        <button>
+        <p> This is created by: </p>
+        <p> Hanzel Padilla </p>
+        <p>WD52P Part-Time</p>
+        </button>
+
+    </footer>
+    </body>
+</html>
